@@ -1,0 +1,115 @@
+:root {
+  --primary: hsl(31, 77%, 52%);
+  --secondary: hsl(184, 100%, 22%);
+  --info: hsl(179, 100%, 13%);
+  --light: #eee;
+  /* Breakpoints from BS */
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  width: 100vw; 
+  overflow: auto;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.text-light {
+  color: var(--light);
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-info {
+  background-color: var(--info);
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  color: transparent;
+  border: 1px solid transparent;
+  font-family: inherit;
+}
+.btn:hover {
+  color: var(--light);
+  background-color: transparent;
+  cursor: pointer;
+  border-color: var(--light);
+}
+.btn-outline-primary {
+  color: var(--primary);
+}
+.btn-outline-secondary {
+  color: var(--secondary);
+}
+.btn-outline-info {
+  color: var(--info);
+}
+
+.container {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
+}
+.p-2 {
+  padding: 2rem;
+}
+.my-4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.col-lg-4 {
+  flex: 0 0 100%;
+  position: relative;
+  padding: 2.5rem;
+}
+.rounded {
+  border-radius: .7rem;
+  overflow: clip;
+}
+
+.attribution {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .col-lg-4 {
+        flex: 1;
+    }
+}
