@@ -1,0 +1,82 @@
+:root {
+  --primary-bg: hsl(233, 47%, 7%);
+  --card-bg: hsl(244, 38%, 16%);
+  --accent: hsl(277, 64%, 61%);
+  --light: hsl(0, 0%, 100%);
+  --off-white1: hsla(0, 0%, 100%, 0.75);
+  --off-white2: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  background-color: var(--primary-bg);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: var(--off-white1);
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.bg-card {
+  background-color: var(--card-bg);
+}
+
+.rounded {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 33%;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.img-fluid {
+  background-color: var(--accent);
+  background-image: url(./images/image-header-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+.attribution {
+  text-align: center;
+}
