@@ -3,6 +3,8 @@
 | Design                          | Source                                                          |
 | ------------------------------- | --------------------------------------------------------------- |
 | 3 Column Preview Card Component | [Frontend Mentors](https://www.frontendmentor.io?ref=challenge) |
+| Order Summary Component         | [Frontend Mentors](https://www.frontendmentor.io?ref=challenge) |
+| Stats Preview Card              | [Frontend Mentors](https://www.frontendmentor.io?ref=challenge) |
 
 ## Index Page
 
